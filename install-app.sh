@@ -12,7 +12,7 @@ apt-get install -yq python3-pip git
 # Create a directory for the app and clone the repository
 echo "Cloning the application repository..."
 APP_DIR="/app"
-REPO_URL="https://github.com/Uklonsd/azure_task_12_deploy_app_with_vm_extention.git"
+REPO_URL="https://github.com/kostiukmkalne/azure_task_12_deploy_app_with_vm_extention.git"
 
 if [ -d "$APP_DIR" ]; then
     rm -rf "$APP_DIR"
